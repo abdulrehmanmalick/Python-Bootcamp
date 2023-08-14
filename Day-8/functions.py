@@ -23,3 +23,15 @@ def greet_with(name, location):
     print(f'Hey {name}! Should we meet at {location}?')
 greet_with('Abdul Rehman', 'Chaivinist')
 
+def multplication(a,b,c):
+    product = a * b * c
+    print(product)
+
+multplication(5,3,2)
+
+
+def multplication(c=2, b=1, a=4):
+    product = a * b * c
+    print(product)
+
+multplication()
