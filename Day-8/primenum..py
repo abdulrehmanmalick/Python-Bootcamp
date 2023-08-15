@@ -37,7 +37,6 @@ But 4 is not a prime number because you can divide it by 1, 2 or 4.
 
 
 def prime_checker(number):
-    
     if number <= 1:
         print('Not a Prime Number \n')
     elif number <= 3:
