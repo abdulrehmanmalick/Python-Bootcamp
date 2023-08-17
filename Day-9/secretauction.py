@@ -27,7 +27,6 @@ def highestBidder():
         print('No bidders found')
 
 
-
 welcomeMsg()
 while runagain:
     name = input('What is your name? \n')
