@@ -21,3 +21,5 @@ def format_name(f_name, l_name):
 formatted_string = format_name('ABDUL', 'rEhMaN')
 print(formatted_string)
 
+
+
