@@ -5,7 +5,6 @@ import time
 easyGuess = 10
 hardGuess = 5
 
-
 def welcome():
     print("Welcome to the Number Guessing Game! \n")
 
@@ -27,7 +26,6 @@ def playagain():
         os.system('clear')
         print('Thank you for playing! \n')
         exit()
-  
 def main():
     welcome()
     secret_num = randGuess()
@@ -77,7 +75,6 @@ def main():
         
         print('You ran out of tries, better luck next time \n')
         playagain()
-
 
 if __name__ == "__main__":
     main()
